@@ -1,0 +1,67 @@
+
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  form {
+    background-color: #ffff;
+    box-shadow: 6px 10px 0px -4px rgba(0,0,0,0.4);
+    border-radius: 20px;
+    border:solid 3px #004483 ;
+    padding: 10px;
+  align-self:center ;
+width: 50%;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #666666;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="cel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6a2cdb;
+  }
+  
+
+
+ .cont-tr-1{
+  background-color: #ffff;
+  box-shadow: 6px 10px 0px -4px rgba(0,0,0,0.4);
+  border-radius: 20px;
+  border:solid 3px #004483 ;
+  padding: 10px;
+
+ }
+
+
+ .vector4{
+  width: 550px;
+  width: 100%;
+  filter: drop-shadow(20px 0px 20px rgba(0,0,0,0.8)); 
+
+ }

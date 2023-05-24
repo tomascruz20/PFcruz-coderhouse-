@@ -1,0 +1,60 @@
+.contenedor1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 13px 48px -5px #000000;
+}
+.contenedor1 .img-content {
+  height: 50em;
+  width: 100%;
+}
+
+.text-1-index {
+  font-size: 1.4em;
+}
+
+.img-mundo {
+  height: 750px;
+  width: 45em;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.8));
+}
+@media screen and (max-width: 550px) {
+  .img-mundo {
+    height: 350px;
+    width: 20em;
+    filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.8));
+  }
+}
+
+.conten-sub1 {
+  background-color: #9d3184;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border-radius: 8em;
+  box-shadow: 5px 13px 48px -5px #000000;
+  color: white;
+  width: 40%;
+}
+
+.contenedor3-curso-img img, .contenedor2-curso-img img, .contenedor1-curso-img img {
+  height: 650px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor3-curso-text, .contenedor2-curso-text, .contenedor1-curso-text {
+  background-color: #5f408f;
+  box-shadow: 5px 13px 48px -5px #000000;
+  border-radius: 8em;
+  padding: 10px;
+}
+
+.contenedor3-curso-img img, .contenedor2-curso-img img, .contenedor1-curso-img img {
+  height: 550px;
+  filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor3-curso-text {
+  left: 10%;
+}/*# sourceMappingURL=index.css.map */

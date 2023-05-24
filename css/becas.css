@@ -1,0 +1,82 @@
+.becas-banner .becas-banner-img {
+  height: 45em;
+  width: 100%;
+  box-shadow: 8px 30px 27px -6px rgba(0, 0, 0, 0.1);
+}
+.becas-banner .titulo-becas h1 {
+  font-size: 1.5em;
+}
+
+.contenedor-b-1 {
+  background-color: #764cb6;
+  border-radius: 25px;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: solid 2px rgba(0, 0, 0, 0);
+}
+
+.cont-b-2 {
+  background-color: #764cb6;
+  border-radius: 25px;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-bottom: 2em;
+}
+
+.cont-b-vid {
+  padding: 20px;
+  box-shadow: 8px 15px 0px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-bottom: 3em;
+}
+
+.cont-b-3 {
+  background-color: #764cb6;
+  border-radius: 25px;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: solid 2px rgba(0, 0, 0, 0);
+  margin-bottom: 2em;
+}
+
+.cont-4 {
+  background-color: white;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: solid 3px #004483;
+  padding: 10px;
+}
+
+.cont-4-img {
+  height: 550px;
+  width: 100%;
+  filter: drop-shadow(20px 0px 20px rgba(0, 0, 0, 0.8));
+}
+
+.cont-5-text {
+  background-color: #d58cf1;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: solid 3px #004483;
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.cont-5-img {
+  height: 400px;
+  background-color: #e0e0e0;
+  box-shadow: 6px 10px 0px -4px rgba(0, 0, 0, 0.4);
+  border: solid 3px #004483;
+  border-radius: 20px;
+}/*# sourceMappingURL=becas.css.map */
