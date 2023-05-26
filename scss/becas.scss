@@ -9,16 +9,25 @@
 }
 
 
-.titulo-becas h1{
-    font-size: 1.5em;
+.titulo-becas {
+    font-size: 4.5em;
     
     @include mobile{
-        font-size: 0.6em;
+        font-size: 3em;
             }
 
-}
+            @include mobile1{
+                font-size: 2em;
+                    }
+            
+            }
+
 
 }
+
+
+
+
 
 
 
@@ -31,7 +40,15 @@ justify-content: center;
 align-items: center;
 width: 30%;
 border:solid 2px #0000;
+
+
+@include mobile1{
+    width: 50%;
+        }
+
 }
+
+
 
 
 .cont-b-2{
@@ -86,6 +103,12 @@ margin-bottom: 3em;
     border-radius: 20px;
     border:solid 3px #004483 ;
     padding: 10px;
+
+    @include mobile1{
+        width: 70%;
+            }
+
+
 }
 
 
@@ -104,6 +127,11 @@ margin-bottom: 3em;
     border:solid 3px #004483 ;
     padding:0px;
     margin-left: 10px;
+
+    @include mobile1{
+        width: 70%;
+            }
+
 }
 
 
@@ -113,5 +141,11 @@ margin-bottom: 3em;
     box-shadow: 6px 10px 0px -4px rgba(0,0,0,0.4);;
     border:solid 3px #004483 ;
     border-radius: 20px;
+
+    @include mobile1{
+        height: 200px;
+            }
+
+
 }
 

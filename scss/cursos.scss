@@ -18,6 +18,10 @@ font-size: 1.3em;
     font-size: 0.6em;
         }
 
+        @include mobile1{
+            font-size: 0.3em;
+                }
+
 
 }
 
@@ -37,6 +41,12 @@ color: #ffff;
 .cont-cursos-1{
 @extend %cont;
 margin-bottom:20px;
+
+@include mobile1{
+    margin-bottom:10px;
+width: 100%;
+        }
+
 }
 
 

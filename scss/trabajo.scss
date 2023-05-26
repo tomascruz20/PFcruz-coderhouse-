@@ -65,3 +65,19 @@ width: 50%;
   filter: drop-shadow(20px 0px 20px rgba(0,0,0,0.8)); 
 
  }
+
+
+ .cont-nos-1-tx{
+
+font-size: 1em;
+
+@include mobile{
+  font-size: 0.4em;
+      }
+
+      
+    @include mobile1{
+      font-size: 0.2em;
+          }
+
+ }
